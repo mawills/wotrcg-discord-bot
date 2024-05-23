@@ -4,8 +4,8 @@
   "description": "A Discord bot for War of the Ring: The Card Game",
   "main": "src/index.js",
   "scripts": {
-    "start": "dotenvx run -f .env.prod -- node src/index.js",
-    "dev": "dotenvx run -f .env.local -- node src/index.js",
+    "build": "npx tsc",
+    "start": "dotenvx run -f .env -- node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -16,6 +16,7 @@
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
-    "eslint": "^9.3.0"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
 }
