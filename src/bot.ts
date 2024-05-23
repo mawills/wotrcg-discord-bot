@@ -1,5 +1,5 @@
-import { Client, Events, GatewayIntentBits } from 'discord.js';
-import Parser from './parser';
+import { Client, Events, GatewayIntentBits, } from 'discord.js';
+import Parser from './parser.js';
 
 export default class Palantir {
     token: string;
@@ -11,10 +11,14 @@ export default class Palantir {
 
     initializeClient(token: string) {
         const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-        client.once(Events.ClientReady, readyClient => {
-            console.log(`Ready! Logged in as ${readyClient.user.tag}`);
+        client.once(Events.ClientReady, (readyClient: Client) => {
+            if (readyClient.user) {
+                console.log(`Ready! Logged in as ${readyClient.user.tag}`);
+            } else {
+                console.error('client user not found.');
+            }
         });
-        client.on('message', msg => {
+        client.on('message', (msg: any) => {
             new Parser(client, msg);
         })
         client.login(token)
