@@ -2,7 +2,7 @@
   "name": "wotrcg-discord-bot",
   "version": "1.0.0",
   "description": "A Discord bot for War of the Ring: The Card Game",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
     "start": "dotenvx run -f .env -- node dist/index.js",
@@ -16,7 +16,7 @@
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
+    "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
   }
 }

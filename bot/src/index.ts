@@ -1,5 +1,5 @@
 import '@dotenvx/dotenvx';
-import Palantir from './bot.js';
+import Palantir from './bot';
 
 if (!process.env.DISCORD_TOKEN) {
 	console.log('Error: Specify DISCORD_TOKEN in .env');
