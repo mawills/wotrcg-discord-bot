@@ -1,0 +1,21 @@
+{
+  "name": "wotrcg-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for War of the Ring: The Card Game",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "dotenvx run -f .env.prod -- node src/index.js",
+    "dev": "dotenvx run -f .env.local -- node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Matthew Wills",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^0.44.0",
+    "discord.js": "^14.15.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.3.0"
+  }
+}
