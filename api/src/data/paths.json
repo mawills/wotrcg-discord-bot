@@ -1,0 +1,32 @@
+[
+    {
+        "artist": "John Howe",
+        "pathNumber": 1,
+        "cardNumber": "1",
+        "imageUrl": "",
+        "name": "Bag End",
+        "pathDefense": 0,
+        "text": "The Hobbit player draws 2 cards.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "John Howe",
+        "pathNumber": 1,
+        "cardNumber": "2",
+        "imageUrl": "",
+        "name": "Buckleberry Ferry",
+        "pathDefense": 1,
+        "text": "The Morder player and the Hobbit player draw 1 card each.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "John Howe",
+        "pathNumber": 1,
+        "cardNumber": "3",
+        "imageUrl": "",
+        "name": "Gildor's Encampment",
+        "pathDefense": 1,
+        "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
+        "victoryPoints": 1
+    }
+]

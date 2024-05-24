@@ -2,7 +2,6 @@ import { Schema, model } from 'mongoose';
 
 const pathSchema = new Schema({
     artist: String,
-    pathNumber: Number,
     cardNumber: String,
     imageUrl: String,
     name: {
@@ -10,6 +9,7 @@ const pathSchema = new Schema({
         required: true,
     },
     pathDefense: Number,
+    pathNumber: Number,
     text: String,
     victoryPoints: Number,
 });

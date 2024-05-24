@@ -1,0 +1,13 @@
+[
+    {
+        "allowedFactions": ["Dúnedain", "Wizard", "Southron"],
+        "artist": "John Howe",
+        "cardNumber": "1",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Dol Amroth",
+        "team": "fp",
+        "text": "The Dúnedain player may forsake 1 card to draw 1 card.",
+        "victoryPoints": 1
+    }
+]

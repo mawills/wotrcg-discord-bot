@@ -1,13 +1,13 @@
 import '@dotenvx/dotenvx';
 import * as express from 'express';
 import dbConnect from './dbconnect';
-import cardRoute from './routers/card';
+import searchRoute from './routers/search';
 
 const { SERVER_PORT } = process.env;
 
 const app: express.Express = express();
 
-app.use('/api/card', cardRoute);
+app.use('/api/search', searchRoute);
 
 dbConnect();
 
