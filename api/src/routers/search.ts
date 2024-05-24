@@ -69,12 +69,28 @@ route.get('/', async (req: Request, res: Response) => {
 
 // todo: for testing purposes, delete me.
 route.delete('/drop', async (req: Request, res: Response) => {
-  await Card.deleteMany({})
+  await Battleground.deleteMany({})
     .then(() => {
-      console.log('db wiped');
+      console.log('battlegrounds deleted');
     })
     .catch(e => {
-      console.error('error wiping db');
+      console.error('error deleting battlegrounds');
+    });
+  
+  await Card.deleteMany({})
+    .then(() => {
+      console.log('cards deleted');
+    })
+    .catch(e => {
+      console.error('error deleting cards');
+    });
+  
+  await Path.deleteMany({})
+    .then(() => {
+      console.log('paths deleted');
+    })
+    .catch(e => {
+      console.error('error deleting paths');
     });
 
   res.status(204).send();
