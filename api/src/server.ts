@@ -11,7 +11,7 @@ app.use('/api/search', searchRoute);
 
 dbConnect();
 
-const server = app.listen(SERVER_PORT, () => {
+app.listen(SERVER_PORT, () => {
   console.log(`app is listening on port ${SERVER_PORT}`);
 });
 

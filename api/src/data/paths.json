@@ -16,7 +16,7 @@
         "imageUrl": "",
         "name": "Buckleberry Ferry",
         "pathDefense": 1,
-        "text": "The Morder player and the Hobbit player draw 1 card each.",
+        "text": "The Mordor player and the Hobbit player draw 1 card each.",
         "victoryPoints": 1
     },
     {
@@ -28,5 +28,245 @@
         "pathDefense": 1,
         "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
         "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 2,
+        "cardNumber": "4",
+        "imageUrl": "",
+        "name": "Inn of the Prancing Pony",
+        "pathDefense": 1,
+        "text": "Each Shadow player draws 2 cards.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 2,
+        "cardNumber": "5",
+        "imageUrl": "",
+        "name": "The Old Forest",
+        "pathDefense": 1,
+        "text": "Each Free Peoples player must forsake 1 card.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 2,
+        "cardNumber": "6",
+        "imageUrl": "",
+        "name": "Weathertop",
+        "pathDefense": 0,
+        "text": "The Mordor player draws 2 cards.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 3,
+        "cardNumber": "7",
+        "imageUrl": "",
+        "name": "Fords of Bruinen",
+        "pathDefense": 0,
+        "text": "Each Free Peoples player must forsake 1 card and then each draws 3 cards.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 3,
+        "cardNumber": "8",
+        "imageUrl": "",
+        "name": "Imladris",
+        "pathDefense": 1,
+        "text": "The Elf player draws 2 cards.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 3,
+        "cardNumber": "9",
+        "imageUrl": "",
+        "name": "The Council of Elrond",
+        "pathDefense": 1,
+        "text": "Each Free Peoples player draws 1 card.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 4,
+        "cardNumber": "10",
+        "imageUrl": "",
+        "name": "Caradhras",
+        "pathDefense": 0,
+        "text": "Each Free Peoples player must forsake 1 card.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 4,
+        "cardNumber": "11",
+        "imageUrl": "",
+        "name": "Khazad-dûm",
+        "pathDefense": 0,
+        "text": "The Monsterous player draws 2 cards.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 4,
+        "cardNumber": "12",
+        "imageUrl": "",
+        "name": "The Doors of Durin",
+        "pathDefense": 1,
+        "text": "The Monsterous player may forsake 1 card to add {pathAttack} to this path.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 5,
+        "cardNumber": "13",
+        "imageUrl": "",
+        "name": "Dimrill Dale",
+        "pathDefense": 0,
+        "text": "Each Shadow player must cycle 2 cards from hand.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 5,
+        "cardNumber": "14",
+        "imageUrl": "",
+        "name": "Egladil",
+        "pathDefense": 1,
+        "text": "Each Free Peoples player draws 2 cards and then cycles 1 card from hand.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 5,
+        "cardNumber": "15",
+        "imageUrl": "",
+        "name": "Lothlórien",
+        "pathDefense": 2,
+        "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 6,
+        "cardNumber": "16",
+        "imageUrl": "",
+        "name": "Amon Hen",
+        "pathDefense": 0,
+        "text": "The Mordor player draws 1 card and then cycles 1 card from hand.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 6,
+        "cardNumber": "17",
+        "imageUrl": "",
+        "name": "Dead Marshes",
+        "pathDefense": 1,
+        "text": "The Monsterous player draws 2 cards.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 6,
+        "cardNumber": "18",
+        "imageUrl": "",
+        "name": "Emyn Muil",
+        "pathDefense": 0,
+        "text": "Each Free Peoples player must forsake 1 card.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 7,
+        "cardNumber": "19",
+        "imageUrl": "",
+        "name": "Henneth Annûn",
+        "pathDefense": 1,
+        "text": "The Dúnedain player draws 1 card.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 7,
+        "cardNumber": "20",
+        "imageUrl": "",
+        "name": "Osgiliath",
+        "pathDefense": 0,
+        "text": "The Dúnedain player may forsake 1 card to draw 3 cards.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 7,
+        "cardNumber": "21",
+        "imageUrl": "",
+        "name": "The Cross-roads",
+        "pathDefense": 0,
+        "text": "Each Free Peoples player draws 1 card.",
+        "victoryPoints": 1
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 8,
+        "cardNumber": "22",
+        "imageUrl": "",
+        "name": "Cirith Ungol",
+        "pathDefense": 0,
+        "text": "The Mordor player draws 5 cards, and from these may play up to 1 army card, and then cycles the rest.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 8,
+        "cardNumber": "23",
+        "imageUrl": "",
+        "name": "Morgul Vale",
+        "pathDefense": 0,
+        "text": "The Mordor player draws 5 cards, and from these may play up to 1 Nazgûl character, and then cycles the rest.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 8,
+        "cardNumber": "24",
+        "imageUrl": "",
+        "name": "Shelob's Lair",
+        "pathDefense": 0,
+        "text": "The Monsterous player draws 2 cards.",
+        "victoryPoints": 2
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 9,
+        "cardNumber": "25",
+        "imageUrl": "",
+        "name": "Crack of Doom",
+        "pathDefense": 0,
+        "text": "The Monsterous player draws 2 cards.",
+        "victoryPoints": 3
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 9,
+        "cardNumber": "26",
+        "imageUrl": "",
+        "name": "Morgai",
+        "pathDefense": 0,
+        "text": "Add {pathAttack} to this path.",
+        "victoryPoints": 3
+    },
+    {
+        "artist": "Fatanch & John Howe",
+        "pathNumber": 9,
+        "cardNumber": "27",
+        "imageUrl": "",
+        "name": "Orodruin",
+        "pathDefense": 0,
+        "text": "The Mordor player draws 2 cards.",
+        "victoryPoints": 3
     }
 ]
