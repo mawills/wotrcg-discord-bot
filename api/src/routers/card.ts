@@ -1,12 +1,11 @@
 import { Router, Request, Response } from 'express';
 import { Card } from '../models/card';
 
-
 const route = Router()
 
 route.post('/', async (req: Request, res: Response) => {
     const card = await Card.create({
-        title: 'test card 1',})
+        name: 'test card 3',})
       .then(result => {
         console.log("card created", result)
       })
@@ -19,15 +18,11 @@ route.post('/', async (req: Request, res: Response) => {
 
 route.get('/', async (req: Request, res: Response) => {
     try {
-        const posts = await Card.find({})
-        res.send(posts);
+        const cards = await Card.find({})
+        res.send(cards);
     } catch (e) {
         res.status(500).send(e);
     }
 });
-
-// update
-
-// delete
 
 export default route;
