@@ -33,10 +33,14 @@ const cardSchema = new Schema({
     pathDefense: Number,
     team: {
         type: String,
-        enum: [Team.SHADOW, Team.FREE_PEOPLES]
+        enum: [Team.SHADOW, Team.FREE_PEOPLES],
+        required: true,
     },
     text: String,
-    type: String,
+    type: {
+        type: String,
+        required: true,
+    },
 });
 
 export const Card = model('Card', cardSchema);
