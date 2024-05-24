@@ -6,4 +6,9 @@ if (!process.env.DISCORD_TOKEN) {
 	process.exit(1);
 }
 
+if (!process.env.API_BASE_URL) {
+	console.error('Error: Specify API_BASE_URL in .env');
+	process.exit(1);
+}
+
 new Palantir(process.env.DISCORD_TOKEN);

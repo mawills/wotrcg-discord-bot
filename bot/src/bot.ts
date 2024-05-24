@@ -1,5 +1,5 @@
-import { Client, Events, GatewayIntentBits, } from 'discord.js';
-import Parser from './parser.js';
+import { Client, Events, GatewayIntentBits, Message, TextChannel } from 'discord.js';
+import Messenger from './messenger.js';
 
 export default class Palantir {
     token: string;
@@ -18,8 +18,10 @@ export default class Palantir {
                 console.error('client user not found.');
             }
         });
-        client.on('message', (msg: any) => {
-            new Parser(client, msg);
+        client.on('message', (msg: Message) => {
+            console.log(msg.content);
+            const messenger = new Messenger(client, msg);
+            messenger.send();
         })
         client.login(token)
         return client;
