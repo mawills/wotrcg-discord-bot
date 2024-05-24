@@ -9,5 +9,148 @@
         "team": "fp",
         "text": "The Dúnedain player may forsake 1 card to draw 1 card.",
         "victoryPoints": 1
+    },
+    {
+        "allowedFactions": ["Rohan", "Wizard", "Isengard"],
+        "artist": "Fatanch & John Howe",
+        "cardNumber": "2",
+        "defense": 1,
+        "imageUrl": "",
+        "name": "Edoras",
+        "team": "fp",
+        "text": "Helm's Deep must also be activated, if it is in the Free Peoples battleground deck.",
+        "victoryPoints": 1
+    },
+    {
+        "allowedFactions": ["Rohan", "Wizard", "Isengard"],
+        "artist": "John Howe",
+        "cardNumber": "3",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Helm's Deep",
+        "team": "fp",
+        "text": "The Rohan player draws 5 cards, and from these may play 1 army or character on Helm's Deep, and then cycles the rest.",
+        "victoryPoints": 2
+    },
+    {
+        "allowedFactions": ["Elf", "Wizard", "Monsterous", "Mordor"],
+        "artist": "Fatanch & John Howe",
+        "cardNumber": "4",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Lórien",
+        "team": "fp",
+        "text": "The Shadow battleground Dol Guldur must also be activated or reactivated.",
+        "victoryPoints": 2
+    },
+    {
+        "allowedFactions": ["Dúnedain", "Wizard", "Mordor", "Southron"],
+        "artist": "John Howe",
+        "cardNumber": "5",
+        "defense": 3,
+        "imageUrl": "",
+        "name": "Minas Tirith",
+        "team": "fp",
+        "text": "The Dúnedain player may forsake 1 card to draw 3 cards.",
+        "victoryPoints": 3
+    },
+    {
+        "allowedFactions": ["Dúnedain", "Wizard", "Southron"],
+        "artist": "Fatanch & John Howe",
+        "cardNumber": "6",
+        "defense": 1,
+        "imageUrl": "",
+        "name": "Pelargir",
+        "team": "fp",
+        "text": "The Dúnedain player may forsake 1 card to draw 1 card.",
+        "victoryPoints": 1
+    },
+    {
+        "allowedFactions": ["Elf", "Wizard", "Monsterous"],
+        "artist": "John Howe",
+        "cardNumber": "7",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Rivendell",
+        "team": "fp",
+        "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
+        "victoryPoints": 2
+    },
+    {
+        "allowedFactions": ["Mordor", "Elf", "Wizard"],
+        "artist": "Fatanch & John Howe",
+        "cardNumber": "8",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Dol Guldur",
+        "team": "shadow",
+        "text": "The Free Peoples battleground Lórien must also be activated or reactivated.",
+        "victoryPoints": 1
+    },
+    {
+        "allowedFactions": ["Southron", "Dúnedain", "Wizard"],
+        "artist": "Fatanch & John Howe",
+        "cardNumber": "9",
+        "defense": 1,
+        "imageUrl": "",
+        "name": "Harad",
+        "team": "shadow",
+        "text": "Each Shadow player draws 1 card.",
+        "victoryPoints": 1
+    },
+    {
+        "allowedFactions": ["Mordor", "Dúnedain", "Wizard"],
+        "artist": "John Howe",
+        "cardNumber": "10",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Minas Morgul",
+        "team": "shadow",
+        "text": "The Mordor player draws 5 cards, and from these may play up to 1 Nazgûl to reserve, and then cycles the rest.",
+        "victoryPoints": 2
+    },
+    {
+        "allowedFactions": ["Mordor", "Southron", "Dúnedain", "Rohan", "Wizard"],
+        "artist": "John Howe",
+        "cardNumber": "11",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Morannon",
+        "team": "shadow",
+        "text": "The Mordor player draws 5 cards, and from these may play up to 1 army, and then cycles the rest.",
+        "victoryPoints": 2
+    },
+    {
+        "allowedFactions": ["Monsterous", "Elf", "Dwarf", "Wizard"],
+        "artist": "John Howe",
+        "cardNumber": "12",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Moria",
+        "team": "shadow",
+        "text": "The Monsterous player draws 2 cards.",
+        "victoryPoints": 1
+    },
+    {
+        "allowedFactions": ["Isengard", "Rohan", "Wizard"],
+        "artist": "John Howe",
+        "cardNumber": "13",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Orthanc",
+        "team": "shadow",
+        "text": "The Isengard player may take Saruman from the draw deck or cycle pile into hand. The Isengard player recycles the cycle pile.",
+        "victoryPoints": 2
+    },
+    {
+        "allowedFactions": ["Southron", "Dúnedain", "Wizard"],
+        "artist": "John Howe",
+        "cardNumber": "14",
+        "defense": 2,
+        "imageUrl": "",
+        "name": "Umbar",
+        "team": "shadow",
+        "text": "Each Shadow player draws 1 card.",
+        "victoryPoints": 1
     }
 ]
