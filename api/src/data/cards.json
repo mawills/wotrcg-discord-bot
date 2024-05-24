@@ -289,6 +289,24 @@
     },
     {
         "allowedPaths": [],
+        "artist": "Andrea Piparo",
+        "attack": 0,
+        "cardNumber": "P1",
+        "defense": 0,
+        "faction": "Dúnedain",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 1,
+        "name": "Ioreth",
+        "pathAttack": null,
+        "pathDefense": 0,
+        "team": "fp",
+        "text": "After a battleground combat including this card, you may cycle it and one other non-Wizard Free Peoples character in that combat instead of eliminating them. Any wielded items are eliminated.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [],
         "artist": "Ben Wootten",
         "attack": 2,
         "cardNumber": "18",
@@ -411,7 +429,7 @@
         "pathDefense": 1,
         "team": "fp",
         "text": "Weapon. The wielder of this card cannot wield another weapon.",
-        "type": "Item: Elf"
+        "type": "ITEM: Elf"
     },
     {
         "allowedPaths": [],
@@ -429,7 +447,7 @@
         "pathDefense": 1,
         "team": "fp",
         "text": "If the wielder is eliminated during path combat, cycle it instead, along with any wielded items.",
-        "type": "Item: Hobbit, Elf"
+        "type": "ITEM: Hobbit, Elf"
     },
     {
         "allowedPaths": [],
@@ -447,7 +465,7 @@
         "pathDefense": 0,
         "team": "fp",
         "text": "If on a path, the Hobbit player may use an action and eliminate this card to remove 1 corruption for each Hobbit character on the path.",
-        "type": "Item: Hobbit"
+        "type": "ITEM: Hobbit"
     },
     {
         "allowedPaths": [],
@@ -465,7 +483,7 @@
         "pathDefense": 0,
         "team": "fp",
         "text": "While in play, you may always examine the top card of your draw deck.",
-        "type": "Item: Galadriel"
+        "type": "ITEM: Galadriel"
     },
     {
         "allowedPaths": [],
@@ -483,7 +501,7 @@
         "pathDefense": 1,
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card to add {pathDefense} to the active path, or to add {defense} to an active battleground.",
-        "type": "Item: Galadriel"
+        "type": "ITEM: Galadriel"
     },
     {
         "allowedPaths": [],
@@ -501,7 +519,7 @@
         "pathDefense": 0,
         "team": "fp",
         "text": "If on a path, add {pathDefense}{pathDefense} to the path (not to the wielder).",
-        "type": "Item: Frodo, Sam"
+        "type": "ITEM: Frodo, Sam"
     },
     {
         "allowedPaths": [],
@@ -519,6 +537,186 @@
         "pathDefense": 1,
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card so each Free Peoples player draws 1 card.",
-        "type": "Item: Elrond"
+        "type": "ITEM: Elrond"
+    },
+    {
+        "allowedPaths": [3,4,5,6,7,8,9],
+        "artist": "John Howe",
+        "attack": 1,
+        "cardNumber": "31",
+        "defense": 1,
+        "faction": "Dwarf",
+        "flavorText": "\"I will tread the path with you, Gandalf!\" said Gimli.",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Gimli",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "When played, you may take Dwarven Axe from your cycle pile into hand.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Matteo Macchi",
+        "attack": 1,
+        "cardNumber": "32",
+        "defense": 1,
+        "faction": "Dwarf",
+        "flavorText": "\"My axe is restless in my hand. Give me a row of orc-necks and room to swing and all weariness will fall from me!\"",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Dwarven Axe",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "Weapon.",
+        "type": "ITEM: Dwarf"
+    },
+    {
+        "allowedPaths": [3],
+        "artist": "Andrea Piparo",
+        "attack": 0,
+        "cardNumber": "33",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Bilbo Baggins",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "If eliminated for any reason (including being forsaken), cycle this card instead. If in reserve, you may use your action and cycle this card to draw 2 cards.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [1,2],
+        "artist": "Andrea Piparo",
+        "attack": 0,
+        "cardNumber": "34",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Fatty Bolger",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "If in reserve, you may use your action and eliminate this card to draw 3 cards. If in reserve when forsaken, cycle this card instead of eliminating it.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [1,2,3,4,5,6,7,8,9],
+        "artist": "John Howe",
+        "attack": 0,
+        "cardNumber": "35",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Frodo Baggins",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "If eliminated for any reason (including being forsaken), cycle this card instead. This does not apply to any wielded items.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [1,2,3,4,5,6,7,8,9],
+        "artist": "John Howe",
+        "attack": 0,
+        "cardNumber": "36",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 1,
+        "name": "Merry Brandybuck",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "May be played or moved to a Rohan battleground and supported by a Rohan army. If eliminated in path combat, cycle this card instead, along with any wielded items.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [1,2,3,4,5,6,7,8,9],
+        "artist": "John Howe",
+        "attack": 0,
+        "cardNumber": "37",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 1,
+        "name": "Pippin Took",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "May be played or moved to a Dúnedain battleground and supported by a Dúnedain army. If eliminated in path combat, cycle this card instead, along with any wielded items.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [1,2,3,4,5,6,7,8,9],
+        "artist": "John Howe",
+        "attack": 0,
+        "cardNumber": "38",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Sam Gamgee",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "team": "fp",
+        "text": "If in reserve, you may use your action and cycle this card, along with any wielded items, to add {pathDefense} to the active path.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Matteo Macchi",
+        "attack": 0,
+        "cardNumber": "39",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Herbs and Stewed Rabbit",
+        "pathAttack": null,
+        "pathDefense": 0,
+        "team": "fp",
+        "text": "If in play, you may use your action and eliminate this card to take a Hobbit character from your cycle pile into hand, and then draw 1 card.",
+        "type": "ITEM: Frodo, Sam"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Dmitry Prosvirnin",
+        "attack": 0,
+        "cardNumber": "40",
+        "defense": 0,
+        "faction": "Hobbit",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Mithril Coat",
+        "pathAttack": null,
+        "pathDefense": 2,
+        "team": "fp",
+        "text": "",
+        "type": "ITEM: Frodo, Sam"
     }
 ]
