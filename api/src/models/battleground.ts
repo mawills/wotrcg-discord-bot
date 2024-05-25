@@ -6,6 +6,7 @@ const battlegroundSchema = new Schema({
         type: [String],
         enum: [
             Faction.DUNEDAIN,
+            Faction.DWARF,
             Faction.ELF,
             Faction.HOBBIT,
             Faction.ISENGARD,

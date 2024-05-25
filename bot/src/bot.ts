@@ -15,19 +15,25 @@ export default class Palantir {
             GatewayIntentBits.GuildMessages,
             GatewayIntentBits.MessageContent
         ] });
+
         client.once(Events.ClientReady, (readyClient: Client) => {
-            if (readyClient.user) {
-                console.log(`Ready! Logged in as ${readyClient.user.tag}`);
-            } else {
-                console.error('client user not found.');
-            }
+            readyClient.user
+            ? console.log(`Ready! Logged in as ${readyClient.user.tag}`)
+            : console.error('client user not found.')
         });
 
         client.on('messageCreate', (msg: Message) => {
-            const messenger = new Messenger(client, msg);
-            messenger.send();
+            if (!msg.author.bot) {
+                if (msg.content == "ping") {
+                    msg.reply("pong");
+                }
+                const messenger = new Messenger(client, msg);
+                messenger.send();
+            }
         })
+
         client.login(token)
+
         return client;
     }
 }

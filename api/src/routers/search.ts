@@ -5,41 +5,10 @@ import { Path } from '../models/path';
 
 const route = Router()
 
-// for testing purposes, delete me.
-route.post('/seed', async (req: Request, res: Response) => {
-  let battlegroundData = require('../data/battlegrounds.json');
-  let cardData = require('../data/cards.json');
-  let pathData = require('../data/paths.json');
-  
-  await Battleground.insertMany(battlegroundData)
-    .then(() => {
-      console.log("battleground data added");
-    })
-    .catch(e => {
-      console.error("failed to create battlegrounds");
-    })
-  
-  await Card.insertMany(cardData)
-    .then(() => {
-      console.log("card data added");
-    })
-    .catch(e => {
-      console.error("failed to create cards");
-    })
-
-  await Path.insertMany(pathData)
-    .then(() => {
-      console.log("path data added");
-    })
-    .catch(e => {
-      console.error("failed to create paths");
-    })
-  
-  res.status(201).send();
-})
-
 route.get('/', async (req: Request, res: Response) => {
   const name = req.query.name;
+
+  console.log("searching for: ", name);
 
   if (!name) {
     res.status(400).send();
@@ -67,7 +36,28 @@ route.get('/', async (req: Request, res: Response) => {
   }
 });
 
-// todo: for testing purposes, delete me.
+// for development purposes, delete me.
+route.post('/seed', async (req: Request, res: Response) => {
+  let battlegroundData = require('../data/battlegrounds.json');
+  let cardData = require('../data/cards.json');
+  let pathData = require('../data/paths.json');
+  
+  await Battleground.insertMany(battlegroundData)
+    .then(() => console.log("battleground data added"))
+    .catch(e => console.error("failed to create battlegrounds", e))
+  
+  await Card.insertMany(cardData)
+    .then(() => console.log("card data added"))
+    .catch(e => console.error("failed to create cards", e));
+
+  await Path.insertMany(pathData)
+    .then(() => console.log("path data added"))
+    .catch(e => console.error("failed to create paths", e));
+  
+  res.status(201).send();
+})
+
+// todo: for development purposes, delete me.
 route.delete('/drop', async (req: Request, res: Response) => {
   await Battleground.deleteMany({})
     .then(() => {

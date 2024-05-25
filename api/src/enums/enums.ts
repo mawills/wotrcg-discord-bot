@@ -5,6 +5,7 @@ export enum Team {
 
 export enum Faction {
     DUNEDAIN = "Dúnedain",
+    DWARF = "Dwarf",
     ELF = "Elf",
     HOBBIT = "Hobbit",
     ISENGARD = "Isengard",

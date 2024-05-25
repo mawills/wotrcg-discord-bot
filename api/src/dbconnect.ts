@@ -24,9 +24,7 @@ export default async function dbConnect() {
     })
 
     const connection = await mongoose.connect(`${MONGODB_URI}/${DB_NAME}`)
-    .catch(e => {
-        console.error("Failed to connect to database: ", e);
-    })
+    .catch(e => console.error("Failed to connect to database: ", e));
 
     return connection;
 }
