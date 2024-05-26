@@ -3,7 +3,13 @@ import { buildImageEmbed, buildTextEmbed, EmbedType } from './embed';
 
 type Match = {
     cardName: string;
-    embedType: EmbedType
+    embedType: EmbedType;
+}
+
+type CardData = {
+    name: string;
+    imageUrl: string;
+    embedType: EmbedType;
 }
 
 export default class Messenger {
@@ -22,33 +28,35 @@ export default class Messenger {
         const parsedMatches = this.parseMatches();
 
         const promises: Promise<any>[] = [];
-        const embedTypeStack: EmbedType[] = [];
         parsedMatches.forEach(match => {
-            promises.push(this.getData(match.cardName));
-            embedTypeStack.push(match.embedType);
+            promises.push(this.getData(match.cardName, match.embedType));
         });
 
-        const data = await Promise.all(promises);
+        const responses: CardData[] = await Promise.all(promises);
         const embeds: EmbedBuilder[] = [];
-        data.forEach(card => {
-            const embedType = embedTypeStack.pop() ?? EmbedType.IMAGE;
-            embeds.push(this.buildEmbed(card, embedType));
+        responses.forEach(card => {
+            if (card) {
+                embeds.push(this.buildEmbed(card));
+            }
         })
 
         return embeds;
     }
 
-    async getData(query: string) {
+    async getData(query: string, embedType: EmbedType) {
         const params = new URLSearchParams({ name: query });
         return await fetch(`${process.env.API_BASE_URL}/api/search?${params.toString()}`)
-        .then(response => response.json())
+        .then(res => res.json())
+        .then(res => {
+            res.embedType = embedType
+            return res;
+        })
         .catch(e => console.error(e));
     }
 
-    buildEmbed(card: any, embedType: EmbedType) {
-        if (embedType == EmbedType.TEXT) {
-            const result = buildTextEmbed(card.name, card.type, card.text, card.imageUrl);
-            return result;
+    buildEmbed(card: any) {
+        if (card.embedType == EmbedType.TEXT) {
+            return buildTextEmbed(card.name, card.type, card.text, card.imageUrl);
         } else {
             return buildImageEmbed(card.name, card.imageUrl);
         }
@@ -66,9 +74,9 @@ export default class Messenger {
                 if (isImageEmbed) {
                     cardName = cardName.substring(1);
                     parsedMatches.push({ cardName, embedType: EmbedType.IMAGE });
+                } else {
+                    parsedMatches.push({ cardName, embedType: EmbedType.TEXT });
                 }
-
-                parsedMatches.push({ cardName, embedType: EmbedType.TEXT });
             });
         }
         return parsedMatches;
@@ -76,8 +84,8 @@ export default class Messenger {
 
     async send() {
         const resolvedMatches = await this.processMatches();
-        console.log('RESOLVED MATCHES: ', resolvedMatches);
-        if (resolvedMatches) {
+        console.log('RESOLVED MATCHES', resolvedMatches);
+        if (resolvedMatches.length > 0) {
             this.msg.channel.send({ embeds: resolvedMatches });
         }
     }
