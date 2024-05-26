@@ -9,7 +9,7 @@ export enum Faction {
     ELF = "Elf",
     HOBBIT = "Hobbit",
     ISENGARD = "Isengard",
-    MONSTEROUS = "Monsterous",
+    MONSTROUS = "Monstrous",
     MORDOR = "Mordor",
     ROHAN = "Rohan",
     SOUTHRON = "Southron",
