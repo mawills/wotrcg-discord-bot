@@ -7,6 +7,7 @@
         "name": "Bag End",
         "pathDefense": 0,
         "text": "The Hobbit player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -17,6 +18,7 @@
         "name": "Buckleberry Ferry",
         "pathDefense": 1,
         "text": "The Mordor player and the Hobbit player draw 1 card each.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -27,6 +29,7 @@
         "name": "Gildor's Encampment",
         "pathDefense": 1,
         "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -37,6 +40,7 @@
         "name": "Inn of the Prancing Pony",
         "pathDefense": 1,
         "text": "Each Shadow player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -47,6 +51,7 @@
         "name": "The Old Forest",
         "pathDefense": 1,
         "text": "Each Free Peoples player must forsake 1 card.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -57,6 +62,7 @@
         "name": "Weathertop",
         "pathDefense": 0,
         "text": "The Mordor player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -67,6 +73,7 @@
         "name": "Fords of Bruinen",
         "pathDefense": 0,
         "text": "Each Free Peoples player must forsake 1 card and then each draws 3 cards.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -77,6 +84,7 @@
         "name": "Imladris",
         "pathDefense": 1,
         "text": "The Elf player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -87,6 +95,7 @@
         "name": "The Council of Elrond",
         "pathDefense": 1,
         "text": "Each Free Peoples player draws 1 card.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -97,6 +106,7 @@
         "name": "Caradhras",
         "pathDefense": 0,
         "text": "Each Free Peoples player must forsake 1 card.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -107,6 +117,7 @@
         "name": "Khazad-dûm",
         "pathDefense": 0,
         "text": "The Monsterous player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -117,6 +128,7 @@
         "name": "The Doors of Durin",
         "pathDefense": 1,
         "text": "The Monsterous player may forsake 1 card to add {pathAttack} to this path.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -127,6 +139,7 @@
         "name": "Dimrill Dale",
         "pathDefense": 0,
         "text": "Each Shadow player must cycle 2 cards from hand.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -137,6 +150,7 @@
         "name": "Egladil",
         "pathDefense": 1,
         "text": "Each Free Peoples player draws 2 cards and then cycles 1 card from hand.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -147,6 +161,7 @@
         "name": "Lothlórien",
         "pathDefense": 2,
         "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -157,6 +172,7 @@
         "name": "Amon Hen",
         "pathDefense": 0,
         "text": "The Mordor player draws 1 card and then cycles 1 card from hand.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -167,6 +183,7 @@
         "name": "Dead Marshes",
         "pathDefense": 1,
         "text": "The Monsterous player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -177,6 +194,7 @@
         "name": "Emyn Muil",
         "pathDefense": 0,
         "text": "Each Free Peoples player must forsake 1 card.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -187,6 +205,7 @@
         "name": "Henneth Annûn",
         "pathDefense": 1,
         "text": "The Dúnedain player draws 1 card.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -197,6 +216,7 @@
         "name": "Osgiliath",
         "pathDefense": 0,
         "text": "The Dúnedain player may forsake 1 card to draw 3 cards.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -207,6 +227,7 @@
         "name": "The Cross-roads",
         "pathDefense": 0,
         "text": "Each Free Peoples player draws 1 card.",
+        "type": "PATH",
         "victoryPoints": 1
     },
     {
@@ -217,6 +238,7 @@
         "name": "Cirith Ungol",
         "pathDefense": 0,
         "text": "The Mordor player draws 5 cards, and from these may play up to 1 army card, and then cycles the rest.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -227,6 +249,7 @@
         "name": "Morgul Vale",
         "pathDefense": 0,
         "text": "The Mordor player draws 5 cards, and from these may play up to 1 Nazgûl character, and then cycles the rest.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -237,6 +260,7 @@
         "name": "Shelob's Lair",
         "pathDefense": 0,
         "text": "The Monsterous player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 2
     },
     {
@@ -247,6 +271,7 @@
         "name": "Crack of Doom",
         "pathDefense": 0,
         "text": "The Monsterous player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 3
     },
     {
@@ -257,6 +282,7 @@
         "name": "Morgai",
         "pathDefense": 0,
         "text": "Add {pathAttack} to this path.",
+        "type": "PATH",
         "victoryPoints": 3
     },
     {
@@ -267,6 +293,7 @@
         "name": "Orodruin",
         "pathDefense": 0,
         "text": "The Mordor player draws 2 cards.",
+        "type": "PATH",
         "victoryPoints": 3
     }
 ]

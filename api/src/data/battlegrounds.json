@@ -8,6 +8,7 @@
         "name": "Dol Amroth",
         "team": "fp",
         "text": "The Dúnedain player may forsake 1 card to draw 1 card.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
     {
@@ -19,6 +20,7 @@
         "name": "Edoras",
         "team": "fp",
         "text": "Helm's Deep must also be activated, if it is in the Free Peoples battleground deck.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
     {
@@ -30,6 +32,7 @@
         "name": "Helm's Deep",
         "team": "fp",
         "text": "The Rohan player draws 5 cards, and from these may play 1 army or character on Helm's Deep, and then cycles the rest.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 2
     },
     {
@@ -41,6 +44,7 @@
         "name": "Lórien",
         "team": "fp",
         "text": "The Shadow battleground Dol Guldur must also be activated or reactivated.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 2
     },
     {
@@ -52,6 +56,7 @@
         "name": "Minas Tirith",
         "team": "fp",
         "text": "The Dúnedain player may forsake 1 card to draw 3 cards.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 3
     },
     {
@@ -63,6 +68,7 @@
         "name": "Pelargir",
         "team": "fp",
         "text": "The Dúnedain player may forsake 1 card to draw 1 card.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
     {
@@ -74,6 +80,7 @@
         "name": "Rivendell",
         "team": "fp",
         "text": "The Elf player draws 1 card and then cycles 1 card from hand.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 2
     },
     {
@@ -85,6 +92,7 @@
         "name": "Dol Guldur",
         "team": "shadow",
         "text": "The Free Peoples battleground Lórien must also be activated or reactivated.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
     {
@@ -96,6 +104,7 @@
         "name": "Harad",
         "team": "shadow",
         "text": "Each Shadow player draws 1 card.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
     {
@@ -107,6 +116,7 @@
         "name": "Minas Morgul",
         "team": "shadow",
         "text": "The Mordor player draws 5 cards, and from these may play up to 1 Nazgûl to reserve, and then cycles the rest.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 2
     },
     {
@@ -118,6 +128,7 @@
         "name": "Morannon",
         "team": "shadow",
         "text": "The Mordor player draws 5 cards, and from these may play up to 1 army, and then cycles the rest.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 2
     },
     {
@@ -129,6 +140,7 @@
         "name": "Moria",
         "team": "shadow",
         "text": "The Monsterous player draws 2 cards.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
     {
@@ -140,6 +152,7 @@
         "name": "Orthanc",
         "team": "shadow",
         "text": "The Isengard player may take Saruman from the draw deck or cycle pile into hand. The Isengard player recycles the cycle pile.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 2
     },
     {
@@ -151,6 +164,7 @@
         "name": "Umbar",
         "team": "shadow",
         "text": "Each Shadow player draws 1 card.",
+        "type": "BATTLEGROUND",
         "victoryPoints": 1
     }
 ]

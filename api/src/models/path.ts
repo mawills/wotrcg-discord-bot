@@ -11,6 +11,7 @@ const pathSchema = new Schema({
     pathDefense: Number,
     pathNumber: Number,
     text: String,
+    type: String,
     victoryPoints: Number,
 });
 

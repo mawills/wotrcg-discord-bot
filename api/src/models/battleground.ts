@@ -32,6 +32,7 @@ const battlegroundSchema = new Schema({
         required: true,
     },
     text: String,
+    type: String,
     victoryPoints: Number,
 });
 
