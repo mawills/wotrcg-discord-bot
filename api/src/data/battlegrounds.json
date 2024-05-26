@@ -39,7 +39,7 @@
         "victoryPoints": 2
     },
     {
-        "allowedFactions": ["Elf", "Wizard", "Monsterous", "Mordor"],
+        "allowedFactions": ["Elf", "Wizard", "Monstrous", "Mordor"],
         "artist": "Fatanch & John Howe",
         "cardNumber": "4",
         "defense": 2,
@@ -78,7 +78,7 @@
         "victoryPoints": 1
     },
     {
-        "allowedFactions": ["Elf", "Wizard", "Monsterous"],
+        "allowedFactions": ["Elf", "Wizard", "Monstrous"],
         "artist": "John Howe",
         "cardNumber": "7",
         "defense": 2,
@@ -143,7 +143,7 @@
         "victoryPoints": 2
     },
     {
-        "allowedFactions": ["Monsterous", "Elf", "Dwarf", "Wizard"],
+        "allowedFactions": ["Monstrous", "Elf", "Dwarf", "Wizard"],
         "artist": "John Howe",
         "cardNumber": "12",
         "defense": 2,
@@ -151,7 +151,7 @@
         "name": "Moria",
         "searchTerms": ["moria"],
         "team": "shadow",
-        "text": "The Monsterous player draws 2 cards.",
+        "text": "The Monstrous player draws 2 cards.",
         "type": "BATTLEGROUND",
         "victoryPoints": 1
     },
