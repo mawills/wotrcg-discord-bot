@@ -14,7 +14,7 @@
         "pathAttack": null,
         "pathDefense": null,
         "searchTerms": ["dead men of dunharrow", "dead men", "dmod"],
-        "team": "fp",
+         "team": "fp",
         "text": "+{attack}{attack} +{defense}{defense} supporting Strider or Aragorn.",
         "type": "ARMY"
     },
@@ -127,6 +127,7 @@
         "name": "Boromir",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["boromir"],
         "team": "fp",
         "text": "When played, draw 1 card. Additionally, when played or moved to a path, you must forsake 1 card.",
         "type": "CHARACTER"
@@ -145,6 +146,7 @@
         "name": "Faramir",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["faramir"],
         "team": "fp",
         "text": "When played or moved to a path 7, you may activate a different path 7.",
         "type": "CHARACTER"
@@ -163,6 +165,7 @@
         "name": "Halbarad",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["halbarad"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card to take Strider or Aragorn from your draw deck into hand.",
         "type": "CHARACTER"
@@ -181,6 +184,7 @@
         "name": "Prince Imrahil",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["prince", "imrahil", "prince imrahil"],
         "team": "fp",
         "text": "When played, you may cycle 1 card from hand to take Knights of Dol Amroth from your draw deck into hand.",
         "type": "CHARACTER"
@@ -199,6 +203,7 @@
         "name": "Strider",
         "pathAttack": null,
         "pathDefense": 2,
+        "searchTerms": ["strider"],
         "team": "fp",
         "text": "If on a path, you may use your action to activate a path of the next higher number. If Aragorn is played, eliminate this card.",
         "type": "CHARACTER"
@@ -217,6 +222,7 @@
         "name": "Andúril",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["andúril", "anduril"],
         "team": "fp",
         "text": "Weapon. If in reserve, you may use your action to activate or reactivate any Dúnedain battleground; then, you must move the wielder to that battleground (even if it was played this round).",
         "type": "ITEM: Strider, Aragorn"
@@ -235,6 +241,7 @@
         "name": "Blade of Westernesse",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["blade of westernesse", "blade of westernese", "blade of west", "barrow blade"],
         "team": "fp",
         "text": "Weapon.",
         "type": "ITEM: Hobbit"
@@ -253,6 +260,7 @@
         "name": "Paths of the Dead",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["paths of the dead", "potd"],
         "team": "fp",
         "text": "Forsake 2 cards and then draw 4 cards, or 5 if Strider or Aragorn is in reserve.",
         "type": "EVENT"
@@ -271,6 +279,7 @@
         "name": "The Red Arrow",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["the red arrow", "red arrow"],
         "team": "fp",
         "text": "This round, Rohan cards may be played or moved to Dúnedain battlegrounds.",
         "type": "EVENT"
@@ -289,6 +298,7 @@
         "name": "The Three Hunters",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["the three hunters", "the 3 hunters", "three hunters", "3 hunters"],
         "team": "fp",
         "text": "This round, Legolas, Gimli, and Strider (or Aragorn) can be played or moved to any battleground and may be supported by any Free Peoples army.",
         "type": "EVENT"
@@ -307,6 +317,7 @@
         "name": "Ioreth",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["ioreth"],
         "team": "fp",
         "text": "After a battleground combat including this card, you may cycle it and one other non-Wizard Free Peoples character in that combat instead of eliminating them. Any wielded items are eliminated.",
         "type": "CHARACTER"
@@ -325,6 +336,7 @@
         "name": "High Elves",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["high elves", "high elfs"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -343,6 +355,7 @@
         "name": "High Elves",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["high elves", "high elfs"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -361,6 +374,7 @@
         "name": "Arwen",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["arwen"],
         "team": "fp",
         "text": "When played, draw 1 card. While in reserve, add {defense} and {pathDefense} to Strider or Aragorn.",
         "type": "CHARACTER"
@@ -379,6 +393,7 @@
         "name": "Elrond",
         "pathAttack": null,
         "pathDefense": 2,
+        "searchTerms": ["elrond"],
         "team": "fp",
         "text": "When played, draw 1 card. While in reserve, increase your carryover limit by 1.",
         "type": "CHARACTER"
@@ -397,6 +412,7 @@
         "name": "Galadriel",
         "pathAttack": null,
         "pathDefense": 2,
+        "searchTerms": ["galadriel"],
         "team": "fp",
         "text": "When played, draw 1 card. While in reserve, draw 1 additional card each Draw Step, then cycle 1 card from hand.",
         "type": "CHARACTER"
@@ -415,6 +431,7 @@
         "name": "Legolas",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["legolas"],
         "team": "fp",
         "text": "When played, you may take Bow of the Galadhrim from your draw deck into hand.",
         "type": "CHARACTER"
@@ -433,6 +450,7 @@
         "name": "Bow of the Galadhrim",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["bow", "bow of the galadhrim", "bow of the galadrim", "elf bow"],
         "team": "fp",
         "text": "Weapon. The wielder of this card cannot wield another weapon.",
         "type": "ITEM: Elf"
@@ -451,6 +469,7 @@
         "name": "Elven Cloak",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["elven cloak", "cloak"],
         "team": "fp",
         "text": "If the wielder is eliminated during path combat, cycle it instead, along with any wielded items.",
         "type": "ITEM: Hobbit, Elf"
@@ -469,6 +488,7 @@
         "name": "Lembas",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["lembas", "lembas bread", "bread"],
         "team": "fp",
         "text": "If on a path, the Hobbit player may use an action and eliminate this card to remove 1 corruption for each Hobbit character on the path.",
         "type": "ITEM: Hobbit"
@@ -487,6 +507,7 @@
         "name": "Mirror of Galadriel",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["mirror of galadriel", "mirror"],
         "team": "fp",
         "text": "While in play, you may always examine the top card of your draw deck.",
         "type": "ITEM: Galadriel"
@@ -505,6 +526,7 @@
         "name": "Nenya, Ring of Adamant",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["nenya", "nenya, ring of adamant", "nenya ring of adamant"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card to add {pathDefense} to the active path, or to add {defense} to an active battleground.",
         "type": "ITEM: Galadriel"
@@ -523,6 +545,7 @@
         "name": "Phial of Galadriel",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["phial", "phial of galadriel"],
         "team": "fp",
         "text": "If on a path, add {pathDefense}{pathDefense} to the path (not to the wielder).",
         "type": "ITEM: Frodo, Sam"
@@ -541,6 +564,7 @@
         "name": "Vilya, Ring of Air",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["vilya", "vilya, ring of air", "vilya ring of air"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card so each Free Peoples player draws 1 card.",
         "type": "ITEM: Elrond"
@@ -559,6 +583,7 @@
         "name": "Gimli",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["gimli"],
         "team": "fp",
         "text": "When played, you may take Dwarven Axe from your cycle pile into hand.",
         "type": "CHARACTER"
@@ -577,6 +602,7 @@
         "name": "Dwarven Axe",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["dwarven axe", "dwarf axe", "axe"],
         "team": "fp",
         "text": "Weapon.",
         "type": "ITEM: Dwarf"
@@ -595,6 +621,7 @@
         "name": "Bilbo Baggins",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["bilbo", "bilbo baggins"],
         "team": "fp",
         "text": "If eliminated for any reason (including being forsaken), cycle this card instead. If in reserve, you may use your action and cycle this card to draw 2 cards.",
         "type": "CHARACTER"
@@ -613,6 +640,7 @@
         "name": "Fatty Bolger",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["fatty", "bolger", "fatty bolger"],
         "team": "fp",
         "text": "If in reserve, you may use your action and eliminate this card to draw 3 cards. If in reserve when forsaken, cycle this card instead of eliminating it.",
         "type": "CHARACTER"
@@ -631,6 +659,7 @@
         "name": "Frodo Baggins",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["frodo", "frodo baggins"],
         "team": "fp",
         "text": "If eliminated for any reason (including being forsaken), cycle this card instead. This does not apply to any wielded items.",
         "type": "CHARACTER"
@@ -649,6 +678,7 @@
         "name": "Merry Brandybuck",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["merry", "merry brandybuck"],
         "team": "fp",
         "text": "May be played or moved to a Rohan battleground and supported by a Rohan army. If eliminated in path combat, cycle this card instead, along with any wielded items.",
         "type": "CHARACTER"
@@ -667,6 +697,7 @@
         "name": "Pippin Took",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["pippin", "peregrin", "pippin took", "peregrin took"],
         "team": "fp",
         "text": "May be played or moved to a Dúnedain battleground and supported by a Dúnedain army. If eliminated in path combat, cycle this card instead, along with any wielded items.",
         "type": "CHARACTER"
@@ -685,6 +716,7 @@
         "name": "Sam Gamgee",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["sam", "sam gamgee"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card, along with any wielded items, to add {pathDefense} to the active path.",
         "type": "CHARACTER"
@@ -703,6 +735,7 @@
         "name": "Herbs and Stewed Rabbit",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["herbs and stewed rabbit", "herbs", "stew", "rabbit stew"],
         "team": "fp",
         "text": "If in play, you may use your action and eliminate this card to take a Hobbit character from your cycle pile into hand, and then draw 1 card.",
         "type": "ITEM: Frodo, Sam"
@@ -721,6 +754,7 @@
         "name": "Mithril Coat",
         "pathAttack": null,
         "pathDefense": 2,
+        "searchTerms": ["mithril coat", "mithril"],
         "team": "fp",
         "text": "",
         "type": "ITEM: Frodo, Sam"
@@ -739,6 +773,7 @@
         "name": "Sting",
         "pathAttack": null,
         "pathDefense": 1,
+        "searchTerms": ["sting"],
         "team": "fp",
         "text": "Weapon. +{pathDefense} if the wielder is on the same path as a Monsterous character.",
         "type": "ITEM: Frodo, Sam"
@@ -757,6 +792,7 @@
         "name": "There is Another Way",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["there is another way", "tiaw", "another way"],
         "team": "fp",
         "text": "Activate a different path with the same number as the active path: add {pathDefense} to the new path.",
         "type": "EVENT"
@@ -775,6 +811,7 @@
         "name": "Riders of Rohan",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["riders of rohan"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -793,6 +830,7 @@
         "name": "Riders of Rohan",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["riders of rohan"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -811,6 +849,7 @@
         "name": "Village Militia",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["village militia", "militia"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -829,6 +868,7 @@
         "name": "Éomer",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["eomer", "éomer"],
         "team": "fp",
         "text": "When played, draw 5 cards: from these play up to 1 Rohan army, and cycle the rest.",
         "type": "CHARACTER"
@@ -847,6 +887,7 @@
         "name": "Éowyn",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["eowyn", "éowyn"],
         "team": "fp",
         "text": "When played to a battleground, you may choose a Nazgûl character on that battleground and eliminate it. When played to reserve, you may take Merry or Pippin from your cycle pile into hand.",
         "type": "CHARACTER"
@@ -865,6 +906,7 @@
         "name": "Théoden",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["theoden", "théoden"],
         "team": "fp",
         "text": "+{attack} +{defense} if Gandalf is in play. When played, draw 5 cards: from these play up to 1 Rohan card, and cycle the rest.",
         "type": "CHARACTER"
@@ -883,6 +925,7 @@
         "name": "Shadowfax",
         "pathAttack": null,
         "pathDefense": 0,
+        "searchTerms": ["shadowfax"],
         "team": "fp",
         "text": "Mount. If in reserve, you may use your action to activate or reactive any battleground; then, you must move the wielder to that battleground (even if it was played this round).",
         "type": "ITEM: Gandalf"
@@ -901,8 +944,218 @@
         "name": "Death! Ride, Ride to Ruin!",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["death! ride, ride to ruin!", "death ride ride to ruin", "drrtr", "death! ride, ride to ruin", "death! ride! ride to ruin!", "ride to ruin"],
         "team": "fp",
         "text": "Eliminate any number of Rohan cards from reserve; the Mordor player must eliminate the same number of Mordor cards from active battlegrounds.",
         "type": "EVENT"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Andrea Piparo",
+        "attack": 0,
+        "cardNumber": "P2",
+        "defense": 0,
+        "faction": "Rohan",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 1,
+        "name": "Ghân-buri-Ghân",
+        "pathAttack": null,
+        "pathDefense": 0,
+        "searchTerms": ["ghân-buri-ghân", "ghân buri ghân", "ghan-buri-ghan", "ghan buri ghan"],
+        "team": "fp",
+        "text": "While in reserve, Rohan cards may be played or moved to Minas Tirith.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [1,2,3,4,5,6,7,8,9],
+        "artist": "John Howe",
+        "attack": 2,
+        "cardNumber": "51",
+        "defense": 2,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Gandalf the Grey",
+        "pathAttack": null,
+        "pathDefense": 3,
+        "searchTerms": ["gandalf", "gandalf the grey", "gtg"],
+        "team": "fp",
+        "text": "If on a path, you may use your action to activate a path of the next higher number. If Gandalf the White is played, eliminate this card.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "John Howe",
+        "attack": 2,
+        "cardNumber": "52",
+        "defense": 3,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Gandalf the White",
+        "pathAttack": null,
+        "pathDefense": 0,
+        "searchTerms": ["gandalf the white", "gtw"],
+        "team": "fp",
+        "text": "When played, remove Gandalf the Grey from the game. While in reserve, draw 1 additional card each Draw Step. If forsaken from the top of your draw deck, cycle this card instead of eliminating it.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [9],
+        "artist": "Andrea Piparo",
+        "attack": 1,
+        "cardNumber": "53",
+        "defense": 1,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Gwaihir the Windlord",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["gwaihir", "eagle", "gwaihir the windlord"],
+        "team": "fp",
+        "text": "If in reserve, you may use your action and cycle this card to take Gandalf the Grey or Gandalf the White from your cycle pile into hand.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [5,6],
+        "artist": "John Howe",
+        "attack": 0,
+        "cardNumber": "54",
+        "defense": 0,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Quickbeam",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["quickbeam", "quick beam"],
+        "team": "fp",
+        "text": "Ent. +{attack} +{defense} for every 2 Isengard character and/or army cards on the same battleground (rounded down).",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [6,7,8,9],
+        "artist": "John Howe",
+        "attack": 0,
+        "cardNumber": "55",
+        "defense": 0,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Sméagol",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["sméagol", "smeagol"],
+        "team": "fp",
+        "text": "If on a path, you may use your action and add 1 corruption to activate a path of the next higher number. If this card is eliminated in path combat, cycle it instead.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [5,6],
+        "artist": "John Howe",
+        "attack": 1,
+        "cardNumber": "56",
+        "defense": 1,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Treebeard",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["treebeard", "tree beard"],
+        "team": "fp",
+        "text": "Ent. +{attack} on Orthanc. When played or moved to a battleground, the Isengard player must eliminate 1 Isengard army on that battleground.",
+        "type": "CHARACTER"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Dmitry Prosvirnin",
+        "attack": 0,
+        "cardNumber": "57",
+        "defense": 0,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Ent-Draught",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["ent-draught", "ent draught"],
+        "team": "fp",
+        "text": "If in play, you may use your action and eliminate this card so the Hobbit player may take up to 2 Hobbit characters from its cycle pile into hand.",
+        "type": "ITEM: Ent"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Matteo Macchi",
+        "attack": 1,
+        "cardNumber": "58",
+        "defense": 1,
+        "faction": "Wizard",
+        "flavorText": "He raised his staff, adn for a brief instant there was blaze like a flash of lightning.",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Gandalf's Staff",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["gandalf's staff", "gandalfs staff"],
+        "team": "fp",
+        "text": "Weapon. While in play, increase your carryover limit by 1.",
+        "type": "ITEM: Gandalf"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "Matteo Macchi",
+        "attack": 1,
+        "cardNumber": "59",
+        "defense": 1,
+        "faction": "Wizard",
+        "flavorText": "Gandalf stood in the middle of the span, leaning on the staff in his left hand, but in his other hand Glamdring gleamed, cold and white.",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Glamdring",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["glamdring"],
+        "team": "fp",
+        "text": "Weapon.",
+        "type": "ITEM: Gandalf"
+    },
+    {
+        "allowedPaths": [],
+        "artist": "John Howe",
+        "attack": 1,
+        "cardNumber": "60",
+        "defense": 1,
+        "faction": "Wizard",
+        "flavorText": "",
+        "imageUrl": "",
+        "leadershipAttack": 0,
+        "leadershipDefense": 0,
+        "name": "Narya, Ring of Fire",
+        "pathAttack": null,
+        "pathDefense": 1,
+        "searchTerms": ["narya", "narya, ring of fire", "narya ring of fire"],
+        "team": "fp",
+        "text": "If in reserve, you may use your action and cycle this card so each Shadow player must cycle 1 card from hand.",
+        "type": "ITEM: Gandalf"
     }
 ]
