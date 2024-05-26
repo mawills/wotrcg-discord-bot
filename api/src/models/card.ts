@@ -15,7 +15,7 @@ const cardSchema = new Schema({
             Faction.ELF,
             Faction.HOBBIT,
             Faction.ISENGARD,
-            Faction.MONSTEROUS,
+            Faction.MONSTROUS,
             Faction.MORDOR,
             Faction.ROHAN,
             Faction.SOUTHRON,
