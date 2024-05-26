@@ -127,7 +127,7 @@
         "name": "Khazad-dûm",
         "pathDefense": 0,
         "searchTerms": ["khazad-dûm", "khazad dûm", "khazad-dum", "khazad dum", "khazadum", "khazaddum"],
-        "text": "The Monsterous player draws 2 cards.",
+        "text": "The Monstrous player draws 2 cards.",
         "type": "PATH",
         "victoryPoints": 2
     },
@@ -139,7 +139,7 @@
         "name": "The Doors of Durin",
         "pathDefense": 1,
         "searchTerms": ["the doors of durin", "doors of durin"],
-        "text": "The Monsterous player may forsake 1 card to add {pathAttack} to this path.",
+        "text": "The Monstrous player may forsake 1 card to add {pathAttack} to this path.",
         "type": "PATH",
         "victoryPoints": 2
     },
@@ -199,7 +199,7 @@
         "name": "Dead Marshes",
         "pathDefense": 1,
         "searchTerms": ["dead marshes", "dead marsh"],
-        "text": "The Monsterous player draws 2 cards.",
+        "text": "The Monstrous player draws 2 cards.",
         "type": "PATH",
         "victoryPoints": 2
     },
@@ -283,7 +283,7 @@
         "name": "Shelob's Lair",
         "pathDefense": 0,
         "searchTerms": ["shelob's lair", "shelobs lair"],
-        "text": "The Monsterous player draws 2 cards.",
+        "text": "The Monstrous player draws 2 cards.",
         "type": "PATH",
         "victoryPoints": 2
     },
@@ -295,7 +295,7 @@
         "name": "Crack of Doom",
         "pathDefense": 0,
         "searchTerms": ["crack of doom"],
-        "text": "The Monsterous player draws 2 cards.",
+        "text": "The Monstrous player draws 2 cards.",
         "type": "PATH",
         "victoryPoints": 3
     },
