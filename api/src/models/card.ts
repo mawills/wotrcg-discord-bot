@@ -32,6 +32,10 @@ const cardSchema = new Schema({
     },
     pathAttack: Number,
     pathDefense: Number,
+    searchTerms: {
+        type: [String],
+        required: true,
+    },
     team: {
         type: String,
         enum: [Team.SHADOW, Team.FREE_PEOPLES],

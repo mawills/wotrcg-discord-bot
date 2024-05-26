@@ -16,7 +16,7 @@ export function buildTextEmbed(name: string, type: string, text: string, imageUr
      * 
      * When we are using real data, this will no longer be required.
      */
-    const t = new Date().getTime();
+    const t = new Date().getTime() + Math.floor(Math.random() * 100000);
     return new EmbedBuilder()
         .setColor(0x0099FF)
         .setTitle(name)
@@ -33,7 +33,7 @@ export function buildImageEmbed(name: string, imageUrl: string) {
      * 
      * When we are using real data, this will no longer be required.
      */
-    const t = new Date().getTime();
+    const t = new Date().getTime() + Math.floor(Math.random() * 100000);
     return new EmbedBuilder()
         .setColor(0x0099FF)
         .setTitle(name)

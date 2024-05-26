@@ -24,9 +24,6 @@ export default class Palantir {
 
         client.on('messageCreate', (msg: Message) => {
             if (!msg.author.bot) {
-                if (msg.content == "ping") {
-                    msg.reply("pong");
-                }
                 const messenger = new Messenger(client, msg);
                 messenger.send();
             }

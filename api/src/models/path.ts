@@ -10,6 +10,10 @@ const pathSchema = new Schema({
     },
     pathDefense: Number,
     pathNumber: Number,
+    searchTerms: {
+        type: [String],
+        required: true,
+    },
     text: String,
     type: String,
     victoryPoints: Number,

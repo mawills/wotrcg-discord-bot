@@ -5,34 +5,35 @@ import { Path } from '../models/path';
 
 const route = Router()
 
+
+
 route.get('/', async (req: Request, res: Response) => {
-  const name = req.query.name;
-
-  console.log("searching for: ", name);
-
-  if (!name) {
+  if (!req.query.q) {
     res.status(400).send();
   }
-
-  try {
-    const [battleground, card, path] = await Promise.all([
-      Battleground.findOne({ name: name }),
-      Card.findOne({ name: name }),
-      Path.findOne({ name: name }),
-    ])
-
-    if (battleground) {
-      res.send(battleground);
-    } else if (card) {
-      res.send(card);
-    } else if (path) {
-      res.send(path);
-    } else {
-      res.status(404).json({ "message": "document not found." });
+  const query = req.query.q?.toString().toLowerCase();
+  if (query) {
+    console.log("searching for:", query);
+    try {
+      const [battleground, card, path] = await Promise.all([
+        Battleground.findOne({ searchTerms: query }),
+        Card.findOne({ searchTerms: query }),
+        Path.findOne({ searchTerms: query }),
+      ])
+  
+      if (battleground) {
+        res.send(battleground);
+      } else if (card) {
+        res.send(card);
+      } else if (path) {
+        res.send(path);
+      } else {
+        res.status(404).json({ "message": "document not found." });
+      }
+    } catch (e) {
+      console.error(e);
+      res.status(500).send(e);
     }
-  } catch (e) {
-    console.error(e);
-    res.status(500).send(e);
   }
 });
 

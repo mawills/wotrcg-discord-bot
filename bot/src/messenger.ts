@@ -35,7 +35,8 @@ export default class Messenger {
         const responses: CardData[] = await Promise.all(promises);
         const embeds: EmbedBuilder[] = [];
         responses.forEach(card => {
-            if (card) {
+            // todo: better handling for document not found
+            if (card?.name) {
                 embeds.push(this.buildEmbed(card));
             }
         })
@@ -44,7 +45,7 @@ export default class Messenger {
     }
 
     async getData(query: string, embedType: EmbedType) {
-        const params = new URLSearchParams({ name: query });
+        const params = new URLSearchParams({ q: query });
         return await fetch(`${process.env.API_BASE_URL}/api/search?${params.toString()}`)
         .then(res => res.json())
         .then(res => {
@@ -84,7 +85,7 @@ export default class Messenger {
 
     async send() {
         const resolvedMatches = await this.processMatches();
-        console.log('RESOLVED MATCHES', resolvedMatches);
+        console.log("RESOLVED MATCHES:", resolvedMatches);
         if (resolvedMatches.length > 0) {
             this.msg.channel.send({ embeds: resolvedMatches });
         }

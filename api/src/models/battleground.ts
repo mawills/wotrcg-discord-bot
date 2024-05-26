@@ -26,6 +26,10 @@ const battlegroundSchema = new Schema({
         type: String,
         required: true,
     },
+    searchTerms: {
+        type: [String],
+        required: true,
+    },
     team: {
         type: String,
         enum: [Team.SHADOW, Team.FREE_PEOPLES],
