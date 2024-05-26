@@ -13,6 +13,7 @@
         "name": "Dead Men of Dunharrow",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["dead men of dunharrow", "dead men", "dmod"],
         "team": "fp",
         "text": "+{attack}{attack} +{defense}{defense} supporting Strider or Aragorn.",
         "type": "ARMY"
@@ -31,6 +32,7 @@
         "name": "Knights of Dol Amroth",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["knights of dol amroth", "knights", "koda"],
         "team": "fp",
         "text": "+{defense} on Dol Amroth.",
         "type": "ARMY"
@@ -49,6 +51,7 @@
         "name": "Guards of the Citadel",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["guards of the citadel", "guards", "gotc"],
         "team": "fp",
         "text": "+{defense} on Minas Tirith.",
         "type": "ARMY"
@@ -67,6 +70,7 @@
         "name": "Soldiers of Gondor",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["soldiers of gondor", "soldiers", "sog"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -85,6 +89,7 @@
         "name": "The Great Gate",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["the great gate", "great gate", "gate", "tgg"],
         "team": "fp",
         "text": "+{defense}{defense}{defense} on Minas Tirith. This card cannot be played or moved to a Shadow battleground.",
         "type": "ARMY"
@@ -103,6 +108,7 @@
         "name": "Aragorn",
         "pathAttack": null,
         "pathDefense": null,
+        "searchTerms": ["aragorn"],
         "team": "fp",
         "text": "When played, remove Strider from the game. While in reserve, draw 1 additional card each Draw Step. If forsaken from the top of your draw deck, cycle this card instead of eliminating it.",
         "type": "CHARACTER"
