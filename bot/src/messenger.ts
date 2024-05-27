@@ -70,13 +70,13 @@ export default class Messenger {
                 // Remove surrounding brackets "[[cardName]]""
                 let cardName = match.slice(2, -2);
 
-                // Check if cardName begins with "!", this is a special command to return an ImageEmbed.
-                const isImageEmbed = cardName[0] === '!';
-                if (isImageEmbed) {
+                // Check if cardName begins with "!", this is a special command to return a TextEmbed.
+                const isTextEmbed = cardName[0] === '!';
+                if (isTextEmbed) {
                     cardName = cardName.substring(1);
-                    parsedMatches.push({ cardName, embedType: EmbedType.IMAGE });
-                } else {
                     parsedMatches.push({ cardName, embedType: EmbedType.TEXT });
+                } else {
+                    parsedMatches.push({ cardName, embedType: EmbedType.IMAGE });
                 }
             });
         }
@@ -85,7 +85,6 @@ export default class Messenger {
 
     async send() {
         const resolvedMatches = await this.processMatches();
-        console.log("RESOLVED MATCHES:", resolvedMatches);
         if (resolvedMatches.length > 0) {
             this.msg.channel.send({ embeds: resolvedMatches });
         }
