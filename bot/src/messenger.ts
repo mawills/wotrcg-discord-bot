@@ -32,11 +32,10 @@ export default class Messenger {
             promises.push(this.getData(match.cardName, match.embedType));
         });
 
-        const responses: CardData[] = await Promise.all(promises);
+        const responses: CardData|undefined[] = await Promise.all(promises);
         const embeds: EmbedBuilder[] = [];
         responses.forEach(card => {
-            // todo: better handling for document not found
-            if (card?.name) {
+            if (card) {
                 embeds.push(this.buildEmbed(card));
             }
         })
@@ -47,10 +46,18 @@ export default class Messenger {
     async getData(query: string, embedType: EmbedType) {
         const params = new URLSearchParams({ q: query });
         return await fetch(`${process.env.API_BASE_URL}/api/search?${params.toString()}`)
-        .then(res => res.json())
         .then(res => {
-            res.embedType = embedType
-            return res;
+            if (!res.ok) {
+                console.log(`Failed to find query: ${query}`);
+            } else {
+                return res.json();
+            }
+        })
+        .then(res => {
+            if (res) {
+                res.embedType = embedType
+                return res;
+            }
         })
         .catch(e => console.error(e));
     }
