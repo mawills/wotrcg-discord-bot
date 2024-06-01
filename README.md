@@ -2,7 +2,7 @@
 
 A Discord bot for fetching card data for War of the Ring: The Card Game.
 
-To use it, add it to your Discord server using [this link.](https://discord.com/oauth2/authorize?client_id=1243265144822300793&permissions=19456&scope=bot)
+To use it, add it to your Discord server using [this link.](https://discord.com/oauth2/authorize?client_id=1243265144822300793&permissions=2048&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Foauth2%2Fauthorize&scope=messages.read+bot)
 
 It works by listening for listening for messages that contain cards names surrounded by double brackets e.g. [[Frodo Baggins]], [[bilbo]], or [[Minas Tirith]]. The bot will then post in the channel with an image of those cards!
 
