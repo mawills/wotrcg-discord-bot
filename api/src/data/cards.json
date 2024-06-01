@@ -488,7 +488,7 @@
         "name": "Elven Cloak",
         "pathAttack": null,
         "pathDefense": 1,
-        "searchTerms": ["elven cloak", "cloak"],
+        "searchTerms": ["elven cloak", "elven cloaks", "cloak"],
         "team": "fp",
         "text": "If the wielder is eliminated during path combat, cycle it instead, along with any wielded items.",
         "type": "ITEM: Hobbit, Elf"
@@ -545,7 +545,7 @@
         "name": "Nenya, Ring of Adamant",
         "pathAttack": null,
         "pathDefense": 1,
-        "searchTerms": ["nenya", "nenya, ring of adamant", "nenya ring of adamant"],
+        "searchTerms": ["nenya", "nenya, ring of adamant", "nenya ring of adamant", "ring of adamant"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card to add {pathDefense} to the active path, or to add {defense} to an active battleground.",
         "type": "ITEM: Galadriel"
@@ -583,7 +583,7 @@
         "name": "Vilya, Ring of Air",
         "pathAttack": null,
         "pathDefense": 1,
-        "searchTerms": ["vilya", "vilya, ring of air", "vilya ring of air"],
+        "searchTerms": ["vilya", "vilya, ring of air", "vilya ring of air", "ring of air"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card so each Free Peoples player draws 1 card.",
         "type": "ITEM: Elrond"
@@ -811,7 +811,7 @@
         "name": "There is Another Way",
         "pathAttack": null,
         "pathDefense": null,
-        "searchTerms": ["there is another way", "tiaw", "another way"],
+        "searchTerms": ["there is another way", "tiaw", "another way", "there's another way", "theres another way"],
         "team": "fp",
         "text": "Activate a different path with the same number as the active path: add {pathDefense} to the new path.",
         "type": "EVENT"
@@ -868,7 +868,7 @@
         "name": "Village Militia",
         "pathAttack": null,
         "pathDefense": 0,
-        "searchTerms": ["village militia", "militia"],
+        "searchTerms": ["village militia", "rohan militia"],
         "team": "fp",
         "text": "",
         "type": "ARMY"
@@ -1039,7 +1039,7 @@
         "name": "Gwaihir the Windlord",
         "pathAttack": null,
         "pathDefense": 1,
-        "searchTerms": ["gwaihir", "eagle", "gwaihir the windlord"],
+        "searchTerms": ["gwaihir", "eagle", "gwaihir the windlord", "gwiahir", "gwiahir the windlord"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card to take Gandalf the Grey or Gandalf the White from your cycle pile into hand.",
         "type": "CHARACTER"
@@ -1172,7 +1172,7 @@
         "name": "Narya, Ring of Fire",
         "pathAttack": null,
         "pathDefense": 1,
-        "searchTerms": ["narya", "narya, ring of fire", "narya ring of fire"],
+        "searchTerms": ["narya", "narya, ring of fire", "narya ring of fire", "ring of fire"],
         "team": "fp",
         "text": "If in reserve, you may use your action and cycle this card so each Shadow player must cycle 1 card from hand.",
         "type": "ITEM: Gandalf"
